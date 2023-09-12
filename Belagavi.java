@@ -1,0 +1,3 @@
+class Belagavi extends District{
+
+}
