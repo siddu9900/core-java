@@ -7,9 +7,22 @@ class ottPlatFormExecutor{
 	 movie.addMovieName("Jogi");
 	 movie.addMovieName("Ugrum");
 	 movie.addMovieName("Upendra");
-	 
+	  movie.addMovieName("Kgf");
+	   movie.addMovieName("HumTum");
+	     movie.addMovieName("HumTum");
+	  
+	  
 	  movie.getMovies();
+	  
+	boolean  is =  movie.deleteByName ("HumTum");
+	
+	  
 	
 	}
 
 }
+
+
+
+
+

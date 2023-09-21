@@ -1,4 +1,4 @@
-class CricketTeamExecutor{
+/*class CricketTeamExecutor{
 
 	public static void main(String args []){
 	  CricketTeam player = new CricketTeam();
@@ -11,12 +11,46 @@ class CricketTeamExecutor{
 			 player.addPlayerNames("Yuva Raj Singh");
 			  player.addPlayerNames("Chahal");
 			   player.addPlayerNames("Hardik Pandya");
-			    player.addPlayerNames("Ishana Kishan");
-				 player.addPlayerNames("Karun Nayar");
+   	            player.addPlayerNames("Ishana Kishan");
+		         player.addPlayerNames("Karun Nayar");
 	
 				 player.getPlayer();
 	
 	}
+
+
+}*/
+
+
+
+
+
+
+class CricketTeamExecutor{
+ 
+ public static void main(String args[]){
+ 
+ CricketTeam team = new CricketTeam();
+ 
+ team.addPlayerName("Rohit Sharma   (C)" );
+ team.addPlayerName("Shumbman Gill");
+ team.addPlayerName("Virat Kohli");
+ team.addPlayerName("K L Rahul  (WK)");
+ team.addPlayerName("Shreyas Iyer");
+ team.addPlayerName("Hardik Pandya");
+ team.addPlayerName("Ravindra Jadeja");
+ team.addPlayerName("Shardul Thakur");
+ team.addPlayerName("Jasprit Bumrah");
+ team.addPlayerName("Kuldeep Yadav");
+ team.addPlayerName("Mohamad Siraj");
+ team.addPlayerName("Mohamad Siraj");
+ team.addPlayerName("Mohamad Siraj");
+ team.getPlayerNames();
+ 
+  boolean player = team.deleteByName("Hardik Pandya");
+ 
+ }
+
 
 
 }
